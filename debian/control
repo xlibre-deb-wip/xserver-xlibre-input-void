@@ -1,0 +1,22 @@
+Source: xserver-xorg-input-void
+Section: x11
+Priority: optional
+Maintainer: Daniel Stone <daniel.stone@ubuntu.com>
+Build-Depends: debhelper (>= 4.0.0), pkg-config, xserver-xorg-dev, x11proto-core-dev, x11proto-randr-dev, x11proto-input-dev
+Standards-Version: 3.6.1.0
+
+Package: xserver-xorg-input-void
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, xserver-xorg-core (>= 1:0.99.0-1)
+Provides: xserver-xorg-input
+Replaces: xserver-xorg (<< 6.8.2-35)
+Description: X.Org X server -- void input driver
+ This package provides the void input driver, which never actually registers
+ any input events -- it is, as such, a 'fake' driver.
+ .
+ More information about X.Org can be found at:
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This module can be found as the module 'driver/xf86-input-void' at
+ :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
