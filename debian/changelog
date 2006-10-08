@@ -8,8 +8,9 @@ xserver-xorg-input-void (1:1.1.0-1) UNRELEASED; urgency=low
   [ David Nusinow ]
   * New upstream release. Fixes FTBFS with new server. Thanks Daniel Schepler.
     Closes: #391371
+  * Exclude void_drv.la from dh_install
 
- -- David Nusinow <dnusinow@debian.org>  Sat,  7 Oct 2006 23:10:43 -0400
+ -- David Nusinow <dnusinow@debian.org>  Sat,  7 Oct 2006 23:11:57 -0400
 
 xserver-xorg-input-void (1:1.0.0.5-2) unstable; urgency=low
 
