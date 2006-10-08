@@ -1,10 +1,15 @@
-xserver-xorg-input-void (1:1.0.0.5-3) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.1.0-1) UNRELEASED; urgency=low
 
+  [ Andres Salomon ]
   * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
     idempotency fix.
   * Run dh_install w/ --list-missing.
 
- -- Andres Salomon <dilinger@debian.org>  Mon, 17 Jul 2006 01:07:31 -0400
+  [ David Nusinow ]
+  * New upstream release. Fixes FTBFS with new server. Thanks Daniel Schepler.
+    Closes: #391371
+
+ -- David Nusinow <dnusinow@debian.org>  Sat,  7 Oct 2006 23:10:43 -0400
 
 xserver-xorg-input-void (1:1.0.0.5-2) unstable; urgency=low
 
