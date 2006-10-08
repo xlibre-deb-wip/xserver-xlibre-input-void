@@ -1,4 +1,4 @@
-xserver-xorg-input-void (1:1.1.0-1) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.1.0-1) unstable; urgency=low
 
   [ Andres Salomon ]
   * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
@@ -11,7 +11,7 @@ xserver-xorg-input-void (1:1.1.0-1) UNRELEASED; urgency=low
   * Exclude void_drv.la from dh_install
   * Bump standards version to 3.7.2.2. No changes needed.
 
- -- David Nusinow <dnusinow@debian.org>  Sat,  7 Oct 2006 23:13:05 -0400
+ -- David Nusinow <dnusinow@debian.org>  Sat,  7 Oct 2006 23:13:32 -0400
 
 xserver-xorg-input-void (1:1.0.0.5-2) unstable; urgency=low
 
