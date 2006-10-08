@@ -1,3 +1,11 @@
+xserver-xorg-input-void (1:1.1.0-2) unstable; urgency=low
+
+  * Version build-depends on xserver-xorg-dev and depends on xserver-xorg-core
+    to 2:1.1.1 or greater
+  * Remove Fabio from uploaders with his permission. He's always welcome back.
+
+ -- David Nusinow <dnusinow@debian.org>  Sun,  8 Oct 2006 00:03:35 -0400
+
 xserver-xorg-input-void (1:1.1.0-1) unstable; urgency=low
 
   [ Andres Salomon ]
