@@ -3,8 +3,10 @@ Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>
-Build-Depends: debhelper (>= 4.0.0), pkg-config, xserver-xorg-dev (>= 2:1.2.0-3), x11proto-core-dev, x11proto-randr-dev, x11proto-input-dev
+Build-Depends: debhelper (>= 4.0.0), pkg-config, xserver-xorg-dev (>= 2:1.2.99.902), x11proto-core-dev, x11proto-randr-dev, x11proto-input-dev
 Standards-Version: 3.7.2.2
+XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/driver/xserver-xorg-input-void
+XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-input-void.git
 
 Package: xserver-xorg-input-void
 Architecture: any
@@ -16,8 +18,8 @@ Description: X.Org X server -- void input driver
  any input events -- it is, as such, a 'fake' driver.
  .
  More information about X.Org can be found at:
+ <URL:http://www.X.org>
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
  .
- This module can be found as the module 'driver/xf86-input-void' at
- :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
+ This package is built from the X.org xf86-input-void driver module.

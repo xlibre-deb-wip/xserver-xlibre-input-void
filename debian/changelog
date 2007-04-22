@@ -1,10 +1,18 @@
 xserver-xorg-input-void (1:1.1.0-3) UNRELEASED; urgency=low
 
+  [ Julien Cristau ]
   * Add link to xserver-xorg-core bug script, so that bugreports contain
     the user's config and log files.
   * Generate the dependency on xserver-xorg-core automatically.
 
- -- Julien Cristau <jcristau@debian.org>  Sun, 18 Feb 2007 20:19:35 +0100
+  [ Brice Goglin ]
+  * Install the upstream changelog.
+  * Bump Build-Depends: xserver-xorg-dev to >= 2:1.2.99.902.
+  * Add XS-Vcs-*.
+  * Add a link to www.X.org and a reference to the xf86-input-void
+    module in the long description.
+
+ -- Brice Goglin <Brice.Goglin@ens-lyon.org>  Sun, 22 Apr 2007 03:55:18 +0200
 
 xserver-xorg-input-void (1:1.1.0-2) unstable; urgency=low
 
