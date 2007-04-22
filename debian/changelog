@@ -7,7 +7,8 @@ xserver-xorg-input-void (1:1.1.0-3) UNRELEASED; urgency=low
 
   [ Brice Goglin ]
   * Install the upstream changelog.
-  * Bump Build-Depends: xserver-xorg-dev to >= 2:1.2.99.902.
+  * Bump Build-Depends: xserver-xorg-dev to >= 2:1.2.99.902
+    (needed to let xsfbs get access to serverminver).
   * Add XS-Vcs-*.
   * Add a link to www.X.org and a reference to the xf86-input-void
     module in the long description.
