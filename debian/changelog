@@ -13,6 +13,10 @@ xserver-xorg-input-void (1:1.1.1-1) UNRELEASED; urgency=low
   * Add XS-Vcs-*.
   * Add a link to www.X.org and a reference to the xf86-input-void
     module in the long description.
+  * Add upstream URL to debian/copyright.
+  * Build against xserver 1.4.
+  * Generate the Provides field automatically.
+  * Add myself to uploaders, and remove Branden with his permission.
 
  -- Brice Goglin <bgoglin@debian.org>  Tue, 11 Sep 2007 22:07:42 +0200
 
