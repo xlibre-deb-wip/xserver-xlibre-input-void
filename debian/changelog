@@ -1,4 +1,4 @@
-xserver-xorg-input-void (1:1.1.1-1) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.1.1-1) experimental; urgency=low
 
   [ Julien Cristau ]
   * Add link to xserver-xorg-core bug script, so that bugreports contain
