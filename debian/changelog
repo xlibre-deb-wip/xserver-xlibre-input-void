@@ -1,4 +1,4 @@
-xserver-xorg-input-void (1:1.1.0-3) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.1.1-1) UNRELEASED; urgency=low
 
   [ Julien Cristau ]
   * Add link to xserver-xorg-core bug script, so that bugreports contain
@@ -6,6 +6,7 @@ xserver-xorg-input-void (1:1.1.0-3) UNRELEASED; urgency=low
   * Generate the dependency on xserver-xorg-core automatically.
 
   [ Brice Goglin ]
+  * New upstream release.
   * Install the upstream changelog.
   * Bump Build-Depends: xserver-xorg-dev to >= 2:1.2.99.902
     (needed to let xsfbs get access to serverminver).
@@ -13,7 +14,7 @@ xserver-xorg-input-void (1:1.1.0-3) UNRELEASED; urgency=low
   * Add a link to www.X.org and a reference to the xf86-input-void
     module in the long description.
 
- -- Brice Goglin <Brice.Goglin@ens-lyon.org>  Sun, 22 Apr 2007 03:55:18 +0200
+ -- Brice Goglin <bgoglin@debian.org>  Tue, 11 Sep 2007 22:07:42 +0200
 
 xserver-xorg-input-void (1:1.1.0-2) unstable; urgency=low
 
