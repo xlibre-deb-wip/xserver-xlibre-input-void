@@ -1,3 +1,9 @@
+xserver-xorg-input-void (1:1.1.1-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Sun, 16 Sep 2007 15:13:40 -0400
+
 xserver-xorg-input-void (1:1.1.1-1) experimental; urgency=low
 
   [ Julien Cristau ]
