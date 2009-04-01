@@ -1,8 +1,12 @@
 xserver-xorg-input-void (1:1.2.0-1) UNRELEASED; urgency=low
 
+  [ Timo Aaltonen ]
   * New upstream changelog.
   * Run autoreconf at build time; build-depend on automake, libtool
     and xutils-dev.
+
+  [ Julien Cristau ]
+  * Build against xserver >= 1.6 rc1.
 
  -- Timo Aaltonen <tjaalton@ubuntu.com>  Wed, 01 Apr 2009 08:38:19 +0300
 
