@@ -31,7 +31,7 @@ endif
 # kbd_drv.a isn't phenomenally useful; kbd_drv.so more so
 confflags += --disable-static
 
-configure: $(STAMP_DIR)/patch
+configure:
 	autoreconf -vfi
 
 obj-$(DEB_BUILD_GNU_TYPE)/config.status: configure
