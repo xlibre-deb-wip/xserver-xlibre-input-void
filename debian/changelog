@@ -1,8 +1,9 @@
-xserver-xorg-input-void (1:1.2.0-2) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.2.0-2) unstable; urgency=low
 
   * Allow parallel builds.
+  * Upload to unstable.
 
- -- Julien Cristau <jcristau@debian.org>  Thu, 09 Apr 2009 16:39:49 +0100
+ -- Julien Cristau <jcristau@debian.org>  Thu, 09 Apr 2009 16:40:26 +0100
 
 xserver-xorg-input-void (1:1.2.0-1) experimental; urgency=low
 
