@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Brice Goglin <bgoglin@debian.org>
 Build-Depends:
- debhelper (>= 4.0.0),
+ debhelper (>= 5),
  pkg-config,
  xserver-xorg-dev (>= 2:1.7),
  x11proto-core-dev,
