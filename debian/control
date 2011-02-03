@@ -20,7 +20,6 @@ Package: xserver-xorg-input-void
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${xinpdriver:Depends}
 Provides: ${xinpdriver:Provides}
-Replaces: xserver-xorg (<< 6.8.2-35)
 Description: X.Org X server -- void input driver
  This package provides the void input driver, which never actually registers
  any input events -- it is, as such, a 'fake' driver.
