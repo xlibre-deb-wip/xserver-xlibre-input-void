@@ -1,3 +1,15 @@
+xserver-xorg-input-void (1:1.3.1-3) UNRELEASED; urgency=low
+
+  * Merge upstream up to cb8d19b8ac:
+    - unifdef XFree86LOADER
+    - Require xserver 1.9
+    - Label the axes as absolute, not relative.
+    - Add mode field to xf86InitValuatorAxisStruct.
+    - Fix PreInit for ABI 12.
+  * This fixes the FTBFS with Xserver 1.10 (Closes: #624920).
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 04 May 2011 01:16:38 +0200
+
 xserver-xorg-input-void (1:1.3.1-2) unstable; urgency=low
 
   * Switch to dh:
