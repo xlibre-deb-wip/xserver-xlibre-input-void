@@ -1,8 +1,8 @@
-xserver-xorg-input-void (1:1.4.0-1+exp1) UNRELEASED; urgency=low
+xserver-xorg-input-void (1:1.4.0-1+exp1) experimental; urgency=low
 
   * Build against Xserver 1.12 RC1.
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 31 Dec 2011 16:46:58 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Sat, 31 Dec 2011 16:49:43 +0100
 
 xserver-xorg-input-void (1:1.4.0-1) unstable; urgency=low
 
