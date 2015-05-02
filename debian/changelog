@@ -3,6 +3,7 @@ xserver-xorg-input-void (1:1.4.1-1) UNRELEASED; urgency=medium
   * Let uscan verify tarball signatures.
   * New upstream release.
   * Remove Cyril from Uploaders.
+  * Bump debhelper compat level to 9.
 
  -- Julien Cristau <jcristau@debian.org>  Sat, 02 May 2015 22:54:36 +0200
 
