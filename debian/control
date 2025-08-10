@@ -26,13 +26,13 @@ Depends:
 Provides:
  xserver-xorg-input-void,
  ${xinpdriver:Provides}
-Description: X.Org X server -- void input driver
+Description: XLibre X server -- void input driver
  This package provides the void input driver, which never actually registers
  any input events -- it is, as such, a 'fake' driver.
  .
- More information about X.Org can be found at:
- <URL:http://www.X.org>
+ More information about XLibre can be found at:
+ <URL:https://www.github.com/X11Libre/xserver>
  .
- This package is built from the X.org xf86-input-void driver module.
+ This package is built from the XLibre xf86-input-void driver module.
 Conflicts:
  xserver-xorg-input-void,
