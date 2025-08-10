@@ -1,28 +1,30 @@
-Source: xserver-xorg-input-void
+Source: xserver-xlibre-input-void
 Section: x11
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: apebl <a@pebl.cc>
 Build-Depends:
  debhelper (>= 9),
  dh-autoreconf,
  quilt,
  pkg-config,
- xserver-xorg-dev (>= 2:1.9.99.1),
+ xserver-xlibre-dev (>= 2:1.9.99.1),
  x11proto-core-dev,
  x11proto-randr-dev,
  x11proto-input-dev,
  xutils-dev (>= 1:7.5+4)
 Standards-Version: 3.9.1
-Vcs-Git: git://git.debian.org/git/pkg-xorg/driver/xserver-xorg-input-void
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/driver/xserver-xorg-input-void.git
+Vcs-Git: https://github.com/xlibre-deb/xserver-xlibre-input-void.git
+Vcs-Browser: https://github.com/xlibre-deb/xserver-xlibre-input-void
+Homepage: https://github.com/X11Libre
 
-Package: xserver-xorg-input-void
+Package: xserver-xlibre-input-void
 Architecture: any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  ${xinpdriver:Depends},
 Provides:
+ xserver-xorg-input-void,
  ${xinpdriver:Provides}
 Description: X.Org X server -- void input driver
  This package provides the void input driver, which never actually registers
@@ -32,3 +34,5 @@ Description: X.Org X server -- void input driver
  <URL:http://www.X.org>
  .
  This package is built from the X.org xf86-input-void driver module.
+Conflicts:
+ xserver-xorg-input-void,
