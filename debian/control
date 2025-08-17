@@ -24,7 +24,7 @@ Depends:
  ${misc:Depends},
  ${xinpdriver:Depends},
 Provides:
- xserver-xorg-input-void,
+ xserver-xorg-input-void (= ${binary:Version}),
  ${xinpdriver:Provides}
 Description: XLibre X server -- void input driver
  This package provides the void input driver, which never actually registers
